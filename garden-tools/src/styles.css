@@ -1,3 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
- @import "~@angular/material/prebuilt-themes/indigo-pink.cess";
- 
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ .spacer {
+     flex-grow: 1;
+ }
+
+ body {
+     color: white;
+     margin: 0;
+    text-align: center;
+ background: url("http://highresolution.photography/images/magic-garden-main.jpg")no-repeat center fixed;
+ -webkit-background-size: cover;
+    margin: auto;
+ }
+
+ #welcome{
+     
+     text-align: center;
+ }
